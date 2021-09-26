@@ -44,7 +44,7 @@ pen = turtle.Turtle()
 pen.speed(0)
 pen.shape("square")
 pen.color("white")
-pen.penup()
+pen.penup()       #so that no lines are drawn
 pen.hideturtle()
 pen.goto(0, 260)
 pen.write("Player A: 0  Player B: 0", align="center", font=("Courier", 24, "normal"))
